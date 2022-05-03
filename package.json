@@ -1,0 +1,37 @@
+{
+  "name": "ajs-25_5.1-classes-inheritance",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack --mode production",
+    "lint": "eslint .",
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elenakoch122/ajs-25_5.1-classes-inheritance.git"
+  },
+  "author": "elenakoch122",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elenakoch122/ajs-25_5.1-classes-inheritance/issues"
+  },
+  "homepage": "https://github.com/elenakoch122/ajs-25_5.1-classes-inheritance#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^28.0.2",
+    "babel-loader": "^8.2.5",
+    "eslint": "^8.14.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jest": "^28.0.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+    "core-js": "^3.22.3"
+  }
+}
