@@ -63,3 +63,18 @@ test('damage function', () => {
   result.damage(10);
   expect(result).toEqual(expected);
 });
+
+test('damage function if health < 0', () => {
+  const result = new Zombie('Man');
+  result.health = 1;
+  const expected = {
+    name: 'Man',
+    type: 'Zombie',
+    health: 0,
+    level: 1,
+    attack: 40,
+    defence: 10,
+  };
+  result.damage(10);
+  expect(result).toEqual(expected);
+});
